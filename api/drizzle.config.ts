@@ -1,6 +1,4 @@
-import { defineConfig } from 'drizzle-kit';
-
-export default defineConfig({
+export default {
   out: './drizzle',
   schema: [
     './src/db/productsSchema.ts',
@@ -13,4 +11,4 @@ export default defineConfig({
   },
   verbose: true,
   strict: true,
-});
+};
