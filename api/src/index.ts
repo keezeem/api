@@ -5,7 +5,7 @@ import productsRoutes from './routes/products/index.js';
 import ordersRoutes from './routes/orders/index.js';
 import Serverless from 'serverless-http';
 
-const port = 3000;
+const port = 3001;
 const app = express();
 
 app.use(urlencoded({ extended: false }));
